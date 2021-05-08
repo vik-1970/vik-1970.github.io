@@ -2,10 +2,10 @@ var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/index.jpg') {
-      myImage.setAttribute ('src','images/ff.jpg');
+    if(mySrc === 'images/002.jpg') {
+      myImage.setAttribute ('src','images/003.jpg');
     } else {
-      myImage.setAttribute ('src','images/index.jpg');
+      myImage.setAttribute ('src','images/002.jpg');
     }
 }
 
@@ -22,7 +22,7 @@ function setUserName() {
     setUserName();
   } else {
     var storedName = localStorage.getItem('name');
-    myHeading.textContent = 'Mozilla is cool, ' + storedName;
+    myHeading.textContent = 'Hello from Sochi, ' + storedName;
   }
 
   myButton.onclick = function() {
