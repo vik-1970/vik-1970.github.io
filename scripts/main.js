@@ -12,6 +12,8 @@ myImage.onclick = function() {
 var myButton = document.querySelector('button');
 var myHeading = document.querySelector('h3');
 
+
+
 function setUserName() {
     var myName = prompt('Please enter your name.');
     localStorage.setItem('name', myName);
