@@ -1,0 +1,34 @@
+html {
+    background-color: rgb(221, 212, 162);
+    font-size: 26px;
+    font-family: 'Itim', cursive;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #FF9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid rgb(236, 18, 18);
+  }
+
+  h3 {
+    font-size: 26px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #eff3ef;
+    text-shadow: 3px 3px 1px rgb(92, 74, 197);
+  }
+  
+  p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+  }
