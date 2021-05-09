@@ -15,7 +15,7 @@ var myHeading = document.querySelector('h3');
 function setUserName() {
     var myName = prompt('Please enter your name.');
     localStorage.setItem('name', myName);
-    myHeading.textContent = 'Mozilla is cool, ' + myName;
+    myHeading.textContent = 'Hello from Sochi, ' + myName;
   }
 
   if(!localStorage.getItem('name')) {
