@@ -6,10 +6,10 @@ html {
   }
 
   body {
-    width: 600px;
+    width: 1000px;
     margin: 0 auto;
     background-color: #FF9500;
-    padding: 0 20px 20px 20px;
+    padding: 0 100px 20px 100px;
     border: 5px solid rgb(236, 18, 18);
   }
 
@@ -22,7 +22,7 @@ html {
     text-shadow: 3px 3px 1px rgb(92, 74, 197);
   }
   
-  p, li {
+  pre, p, li, a {
     font-size: 16px;
     line-height: 2;
     letter-spacing: 1px;
